@@ -89,6 +89,4 @@ public class DataBaseTest {
         creditPage.negativeNotification();
         Assertions.assertEquals("DECLINED", SQLHelper.getCreditRequestStatus());
     }
-
-
 }
