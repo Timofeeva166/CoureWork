@@ -11,5 +11,5 @@
 Для PostgreSQL:
 - Запустить контейнер при помощи команды docker-compose -f docker-compose-postgresql.yml up
 - Запустить приложение при помощи команды java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar
-- Запустить тесты командой ./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app"
+- Запустить тесты командой ./gradlew test "-Ddb.url=jdbc:postgresql://localhost:5432/app"
 - Получить отчёт при помощи команды .\gradlew allureServe
